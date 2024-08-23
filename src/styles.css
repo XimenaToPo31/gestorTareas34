@@ -1,13 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Shadows+Into+Light&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Kalam:wght@300;400;700&family=Shadows+Into+Light&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Kalam:wght@300;400;700&family=Patrick+Hand+SC&family=Shadows+Into+Light&display=swap');
+
 /* Estilos generales*/
 body {
-    font-family: Arial, sans-serif; /*Cambiar la tipografia*/
-    background-color: aliceblue; /*Color de fondo*/
+    font-family: "Kalam", cursive;
+    font-weight: 700;
+    font-style: normal;
+    font-size:medium;
+    background-color:#c6dbf3; /*Color de fondo*/
     margin: 0;
     padding: 0;
     height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
+    text-align: center;
 }
 
 /* Estilos para el contenedor principal*/
@@ -16,6 +24,8 @@ body {
     padding: 20px;
     border-radius: 5px;
     box-shadow: 0 10px rgba(0, 0, 0, 0.1);
+    width: 35%;
+    height: 70%; 
 }
 
 /* Estilos para el formulario */
@@ -36,7 +46,7 @@ input {
 /* Estilos para el boton*/
 button {
     padding: 5px 8px;
-    background-color: #007bff;
+    background-color: #1595a9;
     color: white;
     border: none;
     border-radius: 3px;
@@ -51,17 +61,28 @@ ul {
 
 /*Estilos a los elementos de la lista*/
 li {
-    background-color: #f4f4f4;
+    background-color: #e6c6ef;
     padding: 10px;
-    border: 1px solid #addd;
+    border: 1px solid rgba(18, 172, 172, 0.867);
+    border-radius: 6px;
     margin-top: 10px;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    font-family: "Shadows Into Light", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
 }
 
 /*Estilos para cuando una tarea este completada*/
 li.completed {
     text-decoration: line-through;
-    color: #888;
+    color: #9752e0;
+}
+
+h2 {
+    font-family: "Patrick Hand SC", cursive;
+    font-weight: 400;
+    font-style: normal;
 }
